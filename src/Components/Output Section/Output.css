@@ -1,0 +1,57 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Poppins&family=Roboto&display=swap');
+
+
+.results-section {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .results-section h3 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .results-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .result-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .result-item:hover {
+    transform: scale(1.03);
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .result-date {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .result-temperature {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .result-humidity {
+    font-size: 16px;
+    color: #777;
+  }
+  

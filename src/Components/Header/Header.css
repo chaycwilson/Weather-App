@@ -1,0 +1,31 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(145, 139, 128);
+    padding: 20px 15px;
+    border-bottom: 2px solid #0e0d0d;
+  }
+  
+img {
+    object-fit: contain;
+    width: 125px;
+    height: 150px;
+    padding: 10px;
+    
+}
+
+img:hover {
+    transform: scale(1.02);
+    transition: transform .2s;
+}
+  
+h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    margin-left: 10px;
+
+  }
+  
