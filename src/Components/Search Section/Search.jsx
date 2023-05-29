@@ -5,7 +5,7 @@ import Output from "../Output Section/Output";
 export const Search = () => {
   const [search, setSearch] = useState("");
   const [searchResults, setSearchResults] = useState([]);
-  const apiKey = "849ab1ae3061bace28cb4bb138c26442";
+  const apiKey = "API_KEY";
   
 
   useEffect(() => {
